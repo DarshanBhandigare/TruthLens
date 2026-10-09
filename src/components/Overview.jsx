@@ -3,11 +3,9 @@ import {
   Search,
   Languages,
   CheckCircle2,
-  FileCheck2,
   TrendingUp,
   ArrowRight,
-  Layers,
-  FileText
+  Layers
 } from 'lucide-react';
 import { SAMPLE_CLAIMS } from '../data/mockData';
 

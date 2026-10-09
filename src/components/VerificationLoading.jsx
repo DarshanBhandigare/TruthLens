@@ -1,19 +1,19 @@
 import React, { useState, useEffect } from 'react';
 import { CheckCircle2, Search } from 'lucide-react';
 
-export default function VerificationLoading({ onComplete }) {
-  const steps = [
-    { title: 'Processing your claim...', subtitle: 'Parsing message semantics, linguistic cues, and key entities', progress: 32 },
-    { title: 'Checking contextual indicators...', subtitle: 'Cross-referencing gazette patterns and accredited advisory rubrics', progress: 68 },
-    { title: 'Preparing an explanation...', subtitle: 'Synthesizing evidence limitations and actionable guidance', progress: 95 },
-  ];
+const STEPS = [
+  { title: 'Processing your claim...', subtitle: 'Parsing message semantics, linguistic cues, and key entities', progress: 32 },
+  { title: 'Checking contextual indicators...', subtitle: 'Cross-referencing gazette patterns and accredited advisory rubrics', progress: 68 },
+  { title: 'Preparing an explanation...', subtitle: 'Synthesizing evidence limitations and actionable guidance', progress: 95 },
+];
 
+export default function VerificationLoading({ onComplete }) {
   const [currentStepIndex, setCurrentStepIndex] = useState(0);
 
   useEffect(() => {
     const stepInterval = setInterval(() => {
       setCurrentStepIndex((prev) => {
-        if (prev < steps.length - 1) {
+        if (prev < STEPS.length - 1) {
           return prev + 1;
         }
         clearInterval(stepInterval);
@@ -31,7 +31,7 @@ export default function VerificationLoading({ onComplete }) {
     };
   }, [onComplete]);
 
-  const currentStep = steps[currentStepIndex];
+  const currentStep = STEPS[currentStepIndex];
 
   return (
     <div className="max-w-xl mx-auto py-12 px-4 animate-in fade-in duration-200">
@@ -68,7 +68,7 @@ export default function VerificationLoading({ onComplete }) {
 
         {/* Stepper items checklist */}
         <div className="pt-4 border-t border-zinc-100 space-y-2.5 text-left max-w-sm mx-auto">
-          {steps.map((s, idx) => {
+          {STEPS.map((s, idx) => {
             const isDone = idx < currentStepIndex;
             const isCurrent = idx === currentStepIndex;
             return (
