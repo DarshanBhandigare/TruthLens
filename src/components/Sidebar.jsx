@@ -41,7 +41,7 @@ export default function Sidebar({ activeTab, setActiveTab, recentCount = 0, isMo
           {/* Typographic Brand Mark (No Logo Icon) */}
           <div className="p-6 border-b border-zinc-100">
             <div className="flex items-baseline gap-2">
-              <h1 className="text-xl font-bold tracking-tight text-zinc-950 font-sans">TruthLens</h1>
+              <h1 className="text-xl font-bold tracking-tight text-zinc-950 font-sans">ScanFwd</h1>
               <span className="text-[11px] font-mono font-semibold px-1.5 py-0.5 rounded bg-zinc-100 text-zinc-600 border border-zinc-200">
                 AI
               </span>

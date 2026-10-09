@@ -1,4 +1,4 @@
-// TruthLens AI - Mock Data & Multilingual Support
+// ScanFwd - Mock Data & Multilingual Support
 
 export const LANGUAGES = [
   { code: 'en', name: 'English', native: 'English' },

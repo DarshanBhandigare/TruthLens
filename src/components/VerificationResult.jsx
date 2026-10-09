@@ -87,7 +87,7 @@ export default function VerificationResult({
   const StatusIcon = statusConfig.icon;
 
   const handleCopySummary = async () => {
-    const textToCopy = `[TruthLens AI Fact Check]
+    const textToCopy = `[ScanFwd Fact & Fraud Check]
 Claim: "${localizedClaim}"
 Verdict: ${statusConfig.label} (${result.confidence}% Demo Confidence)
 Summary: ${localizedSummary}

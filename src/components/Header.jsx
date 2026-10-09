@@ -49,7 +49,7 @@ export default function Header({
 
           {/* Clean text branding on mobile (NO LOGO ICON) */}
           <div className="flex items-center gap-2 lg:hidden">
-            <span className="font-bold text-zinc-950 tracking-tight text-lg">TruthLens</span>
+            <span className="font-bold text-zinc-950 tracking-tight text-lg">ScanFwd</span>
             <span className="text-[10px] font-mono px-1.5 py-0.5 rounded bg-zinc-100 text-zinc-600 border border-zinc-200">
               AI
             </span>

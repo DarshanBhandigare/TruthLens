@@ -1,10 +1,10 @@
-# TruthLens AI — Multilingual Fact Verification Platform
+# ScanFwd — AI Fact & Fraud Verification Platform
 
-A polished, humanized frontend prototype for an AI-powered multilingual fact verification platform, designed for hackathons and demonstration showcases.
+A polished, humanized frontend prototype for an AI-powered multilingual fact and fraud verification platform, designed for hackathons and demonstration showcases.
 
-## 🎯 What is TruthLens?
+## 🎯 What is ScanFwd?
 
-TruthLens helps citizens and journalists verify suspicious messages, forwarded news, images, and viral claims with clear, explainable breakdowns and source guidance in 8 regional Indian languages.
+ScanFwd (*Scan Before You Forward / Scan Fraud*) helps citizens and journalists verify suspicious messages, forwarded news, images, and viral claims with clear, explainable breakdowns and source guidance in 8 regional Indian languages.
 
 > **Tagline:** "Pause. Verify. Share Responsibly."
 

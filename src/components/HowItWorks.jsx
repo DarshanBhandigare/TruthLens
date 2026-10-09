@@ -66,7 +66,7 @@ export default function HowItWorks({ onStartVerification }) {
           <span>Product Architecture & Vision</span>
         </div>
         <h2 className="text-2xl sm:text-3xl font-bold text-zinc-950 tracking-tight">
-          How TruthLens Works
+          How ScanFwd Works
         </h2>
         <p className="text-sm sm:text-base text-zinc-600 max-w-xl mx-auto leading-relaxed">
           From viral forwards to grounded factuality: a 5-step explainable verification framework designed for multilingual communities.

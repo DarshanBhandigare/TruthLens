@@ -17,7 +17,7 @@ import {
   generateSimulatedResult
 } from './data/mockData';
 
-const STORAGE_KEY = 'truthlens_recent_checks';
+const STORAGE_KEY = 'scanfwd_recent_checks';
 
 export default function App() {
   const [activeTab, setActiveTab] = useState('overview'); // 'overview' | 'verify' | 'recent' | 'howItWorks'

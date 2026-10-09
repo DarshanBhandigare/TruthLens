@@ -92,7 +92,7 @@ export default function VerificationLoading({ onComplete }) {
         </div>
 
         <p className="text-[11px] text-zinc-400">
-          TruthLens Sandbox • Heuristic verification test
+          ScanFwd Sandbox • Heuristic verification test
         </p>
       </div>
     </div>
